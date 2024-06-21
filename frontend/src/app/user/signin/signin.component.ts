@@ -5,7 +5,7 @@ import { LoadingController, Platform, ToastController } from '@ionic/angular';
 import { GoogleAuthResponse } from 'src/app/shared/interface/google';
 import { environment } from 'src/environments/environment';
 import { UserService } from '../user.service';
-// CDN - https://accounts.google.com/gsi/client
+
 declare let google: any;
 
 @Component({
