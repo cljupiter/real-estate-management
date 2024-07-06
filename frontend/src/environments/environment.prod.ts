@@ -4,6 +4,6 @@ export const environment = {
     server: 'http://localhost:8000/',
     mapKey: '',
     googleAuthClientId: '',
-    webSocketUrl: ''
-  }
+    webSocketUrl: 'ws://localhost:8000/websocket',
+  },
 };
